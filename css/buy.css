@@ -1,0 +1,81 @@
+.buy {
+    padding: 45px 0 0;
+}
+
+.buy__container {
+    width: 990px;
+    margin: 0 auto;
+}
+
+.buy__title {
+    font-size: 30px;
+    line-height: 36px;
+    color: #445161;
+    text-align: center;
+    margin-bottom: 26px;
+}
+
+.buy__card-box {
+    display: flex; 
+    justify-content: space-between;
+    align-items: flex-end;
+}
+
+.buy__card {
+    background: #445161;
+    border-radius: 5px;
+    width: 300px;
+    padding-top: 13px;
+    padding-bottom: 19px;
+}
+
+.buy__subtitle {
+    font-size: 24px;
+    line-height: 30px;
+    color: #FFFFFF;
+    text-align: center;
+    margin-bottom: 15px;
+}
+
+.buy__wrp {
+    width: 100%;
+    height: 71px;
+    background: #FFFFFF;
+    border: 2px solid #445162;
+    box-sizing: border-box;
+    margin-bottom: 8px;
+    padding: 25px 0 16px;
+}
+
+.buy_price {
+    font-size: 40px;
+line-height: 30px;
+color: #445162; 
+text-align: center;
+}
+
+.buy__list {
+    font-size: 14px;
+    line-height: 24px;
+    color: #FFFFFF;
+    margin-left: 20px;
+    margin-bottom: 16px;
+    list-style-position: inside;
+}
+
+.buy__link {
+    display: block;
+    width: 262px;
+    height: 43px;
+    background: #FFFFFF;
+    font-size: 18px;
+    line-height: 18px;
+    color: #445161;
+    text-decoration: none;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-left: 20px;
+    border-radius: 5px;
+    font-weight: bold;
+}
