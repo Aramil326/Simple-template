@@ -28,12 +28,13 @@
     margin-bottom: 10px;
 }
 
-.header__list-item::before {
-    content: '✓';
+.header__mark {
+    fill: white;
     margin-right: 5px;
 }
 
 .header__img {
-    width: 472px;
+    width: 469px;
+    height: 214px;
 }
 

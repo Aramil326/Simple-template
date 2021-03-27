@@ -21,7 +21,7 @@
     width: 49%;
 }
 
-.screenshots__box:first-child {
+.screenshots__box:nth-child(-n + 2) {
     margin-bottom: 27px;
 }
 

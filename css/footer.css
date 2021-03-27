@@ -28,6 +28,7 @@
     margin-right: 45px;
     display: flex;
     flex-direction: column;
+    align-items: center;
 }
 
 .footer__input {
@@ -52,6 +53,7 @@ input::placeholder {
     width: 503px;
     height: 173px;
     margin-bottom: 18px;
+    resize: none;
 }
 
 textarea::placeholder {
@@ -85,18 +87,35 @@ button {
     border-radius: 5px;
 }
 
+.footer__list-top {
+    margin-bottom: 50px;
+}
 .footer__top-item:not(:last-of-type) {
     margin-bottom: 19px;
 }
 
-/* .footer__info-link:first-of-type::before {
-    
-    
-    
-} */
 .footer__info-link {
     text-decoration: none;
     color: #FFFFFF;
     font-size: 16px;
     line-height: 24px;
+}
+
+.footer__list-buttom {
+    display: flex;
+    flex-direction: row;
+}
+
+.footer__buttom-item:not(:last-of-type) {
+    margin-right: 6px;
+}
+
+.footer__paragraph {
+    display: block;
+    letter-spacing: 0.3px;
+    color: #445162;
+    font-size: 12px;
+    line-height: 24px;
+    text-align: center;
+    padding: 13px 0 13px;
 }

@@ -14,14 +14,15 @@
 .dignity__columns {
     display: flex;
     flex-wrap: wrap;
+    justify-content: space-between;
 }
 
 .dignity__item {
     display: flex;
-    width: 50%;
+    width: 48%;
 }
 
-.dignity__item:nth-child(1), .dignity__item:nth-child(2), .dignity__item:nth-child(3), .dignity__item:nth-child(4) {
+.dignity__item:nth-child(-n +4) {
     margin-bottom: 33px;
 }
 
@@ -30,6 +31,7 @@
     width: 35px;
     height: 35px;
     margin-right: 8px;
+    margin-top: 7px;
 }
 
 .dignity__paragraph {
